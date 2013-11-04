@@ -4,3 +4,8 @@
   My interest is web development and building cool stuff with my CS
   knowledge.  I love learning and doing projects.</p>
 
+<ul>
+  {% for post in site.posts limit: 2 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
