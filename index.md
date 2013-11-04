@@ -1,6 +1,6 @@
 ---
-title: Hello, World!
+title: Main Page
 layout: default
 ---
-# I am swagmaster9000
-and im really called Howard Swag Chen now using bootstrap.
+# This is the Main Page of my Website
+but I'm not sure what to put here.
