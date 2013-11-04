@@ -3,4 +3,4 @@ title: Main Page
 layout: default
 ---
 # This is the Main Page of my Website
-but I'm not sure what to put here.
+and there are going to be more exciting things later.
