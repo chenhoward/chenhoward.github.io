@@ -1,7 +1,7 @@
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
-$primary-color: #086FA1;
+$primary-color: #e1e1e1;
 $secondary-color: #0775A0;
 
 html,
@@ -66,7 +66,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px proxima-nova, sans-serif;
 }
 
 .wrapper {
@@ -90,11 +90,10 @@ body {
 .header-container,
 .footer-container,
 .main aside {
-    background: $primary-color;
 }
 
 .title {
-    color: white;
+    color: $primary-color;
 }
 
 /* ==============
@@ -113,7 +112,7 @@ nav a {
 
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: lighter;
 
     color: white;
     background: #e44d26;
