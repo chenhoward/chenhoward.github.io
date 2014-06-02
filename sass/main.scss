@@ -1,4 +1,7 @@
+
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+$primary-color: #086FA1;
 
 html,
 button,
@@ -75,12 +78,12 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid $primary-color;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid $primary-color;
 }
 
 .header-container,
@@ -392,3 +395,4 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+
