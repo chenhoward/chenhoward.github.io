@@ -2,6 +2,7 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 $primary-color: #086FA1;
+$secondary-color: #0775A0;
 
 html,
 button,
@@ -78,18 +79,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid $primary-color;
+    border-bottom: 20px solid $secondary-color;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid $primary-color;
+    border-top: 20px solid $secondary-color;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: $primary-color;
 }
 
 .title {
