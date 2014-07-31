@@ -35,6 +35,15 @@ a:visited { color: #205caa; }
 }
 
 
+.wrap-blog:before,
+.wrap-blog:after { content:""; display:table; }
+.wrap-blog:after { clear: both; }
+.wrap-blog {
+  max-width: 600px;
+  padding: 0 30px;
+  margin: 0 auto;
+  zoom: 1;
+}
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
