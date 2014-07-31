@@ -134,8 +134,8 @@ a:visited { color: #205caa; }
 .github-icon-svg,
 .twitter-icon-svg {
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  max-width: 30px;
+  max-height: 30px;
   position: relative;
   top: 3px;
 }
