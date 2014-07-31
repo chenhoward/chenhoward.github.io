@@ -1,7 +1,7 @@
 # Site settings
-title: Howard's Blog
+title: "Howard Chen: Pointers and Stacks"
 email: howardxchen@gmail.com
-description: "Developer Blog"
+description: "Blogging about my developer experience"
 baseurl: ""
 url: "http://chenhoward.com"
 twitter_username: chowybear
