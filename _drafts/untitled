@@ -1,0 +1,27 @@
+
+
+That means I though I didn’t have to worry about form validation because all I needed was the required tag on the html element, but it was just chrome stopping me.  That means I had to do my own form validations.  Thankfully someone else fell into this problem way before me and create the h5validation library.  We later realized that the h5validate library wasn’t really meant for a phone, so on larger forms it tends to get noticeably smaller.
+
+The third app we worked on was Tasky, a Project Management app where users can create projects, tasks, and assign collaborators in a project to a task.  In this app we tried to integrate more of the build in S1 views in order to make use of all it has to offer, and just to make it more integrated.  The only problem that came up was after you edited a record through the S1 view the app doesn’t update because to get to the S1 view there aren’t any call backs.  Our workaround was to implement the platforms streaming API.  This allowed our app to listen to changes in the records and update accordingly.  Even though this isn’t mobile optimal it would work.
+
+
+Also as side not, interning while being a student was pretty hard.  I worked about 20/hrs a week on site, and it was about a 20-30 minute commute.  What also made it worse was I had pretty difficult problem sets on due on Mondays at noon, and since I had to go in on Mondays it meant I had to finish by 8 AM.  This usually meant I didn’t sleep much Sunday nights and I therefore I made up for my sleep deprevation on Tuesdays by sleeping through my classes.  Because I missed Mondays and Tuesdays,  I was already behind for lectures for the rest of the week.  I also got sick alot because of my lack of rest.  This was my own fault my choices.
+
+
+You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
+To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+
+[jekyll-gh]: https://github.com/jekyll/jekyll
+[jekyll]:    http://jekyllrb.com

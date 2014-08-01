@@ -44,6 +44,10 @@ a:visited { color: #205caa; }
   margin: 0 auto;
   zoom: 1;
 }
+
+.wrap-image img {
+    max-width: 600px;
+}
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
