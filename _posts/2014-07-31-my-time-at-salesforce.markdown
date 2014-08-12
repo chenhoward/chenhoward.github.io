@@ -19,6 +19,6 @@ I asked few questions at first because I wanted to appear very capable, but I re
 
 ### What I Did
 
-What did I actually do at Salesforce though?  I wrote the javascript and the backend logic for mobile web apps that are run on Salesforce's S1 mobile app.  Our focus was apps for the enterprise use case while having them look like the stylish and modern consumer apps for the mobile phone.  This meant a focus on UX and UI and making sure our code ran as efficiently as possible on the less-resourced mobile phones.  Our first app was [RollCall]({% post_url 2014-07-28-welcome-to-jekyll %}).
+What did I actually do at Salesforce though?  I wrote the javascript and the backend logic for mobile web apps that are run on Salesforce's S1 mobile app.  Our focus was apps for the enterprise use case while having them look like the stylish and modern consumer apps for the mobile phone.  This meant a focus on UX and UI and making sure our code ran as efficiently as possible on the less-resourced mobile phones.  Our first app was [RollCall]({% post_url 2014-08-01-rollcall %}).
 
 [salesforce]: http://www.salesforce.com/

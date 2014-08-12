@@ -20,7 +20,7 @@ I went on my way and did the rest of the app when finally I tested form submissi
 
 Lesson Learned: Test on the actual device that the app will run on early on.
 
-h5validate was more for desktops and less for mobile.  It wasn't until I started to test on larger form that I reazlied there is a noticable slowdown on mobile phones.  Even though it isn't ideal, we realized that making our own faster form validation wasn't worth our time because we wanted to get started with Tasky.
+h5validate was more for desktops and less for mobile.  It wasn't until I started to test on larger form that I reazlied there is a noticable slowdown on mobile phones.  Even though it isn't ideal, we realized that making our own faster form validation wasn't worth our time because we wanted to get started with [Tasky]({% post_url 2014-08-11-tasky %}).
 
 
 [inspector-gh]: https://github.com/chenhoward/salesforce_checklist
