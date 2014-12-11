@@ -1,7 +1,7 @@
 <header class="navigation">
   <div class="navigation-wrapper">
     <a href="javascript:void(0)" class="logo">
-      <img src="pictures/power-32.png" alt="Logo Image">
+      <img src="{{ "/pictures/power-32.png" | prepend: site.baseurl }}"" alt="Logo Image">
     </a>
     <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
     <div class="nav">
@@ -9,7 +9,7 @@
         <li class="nav-link"><a href="javascript:void(0)">Home</a></li>
         <li class="nav-link"><a href="javascript:void(0)">About</a></li>
         <li class="nav-link"><a href="javascript:void(0)">Projects</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">Blog</a></li>
+        <li class="nav-link"><a href="/blog">Blog</a></li>
         <li class="nav-link more"><a href="javascript:void(0)">More</a>
           <ul class="submenu">
             <li><a href="javascript:void(0)">Submenu Item</a></li>
@@ -33,6 +33,7 @@
   </div>
 </header>
 
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script>
 $(document).ready(function() {
   var menu = $('#navigation-menu');
