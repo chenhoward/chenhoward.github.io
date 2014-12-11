@@ -1,0 +1,76 @@
+@import "constants";
+@import "nav";
+@import "footer";
+
+.circular {
+  float: left;
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background-image: url('/pictures/profpic.jpeg');
+  background-size: cover;
+}
+
+.feedback {
+  background: transparent;
+  border-radius: 5px;
+  border: 2px solid #828282;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+
+.centered {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.floater {
+  margin-left: 50px;
+  max-width: 450px;
+  float: left;
+}
+
+.wrapper {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 750px) {
+
+.floater {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  float: left;
+}
+
+  .circular {
+    margin-top: 0px;
+  float: none;
+  margin-right: auto;
+  margin-left: auto; 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background-image: url('/pictures/profpic.jpeg');
+  background-size: cover;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+.floater {
+  margin-left: 0px;
+  max-width: 600px;
+  float: left;
+}
+
+}

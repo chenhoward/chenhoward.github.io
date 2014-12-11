@@ -1,39 +1,30 @@
-<footer class="site-footer">
-
-  <div class="wrap">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-1 column">
-      <ul>
-        <li>{{ site.title }}</li>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-col-2 column">
-      <ul>
-        {% if site.github_username %}
-          <a href="https://github.com/{{ site.github_username }}">
-            <span class="icon github">
-              <img class="github-icon-svg" src="/pictures/github.svg"/>
-            </span>
-          </a>
-        {% endif %}
-        {% if site.twitter_username %}
-          <a href="https://twitter.com/{{ site.twitter_username }}">
-            <span class="icon twitter">
-              <img class="twitter-icon-svg" src="/pictures/twitter.svg"/>
-            </span>
-          </a>
-        {% endif %}
-      </ul>
-    </div>
-
-    <div class="footer-col-3 column">
-      <p class="text">{{ site.description }}</p>
-    </div>
-
+<footer class="footer-2">
+<div class ="wrapper">
+  <div class="footer-logo">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
   </div>
-
+  <ul>
+    <li><a href="javascript:void(0)">About</a></li>
+    <li><a href="javascript:void(0)">Contact</a></li>
+    <li><a href="javascript:void(0)">Products</a></li>
+  </ul>
+  <div class="footer-secondary-links">
+    <ul>
+      <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+      <li><a href="javascript:void(0)">Privacy Policy</a></li>
+    </ul>
+    <ul class="footer-social">
+      <li><a href="javascript:void(0)">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
+        </a></li>
+        <li><a href="https://twitter.com/{{ site.twitter_username }}">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
+          </a></li>
+          <li><a href="https://github.com/{{ site.github_username }}">
+              <img src="/pictures/github-w.png" alt="Github">
+            </a></li>
+    </ul>
+  </div>
+</div>
 </footer>
+
