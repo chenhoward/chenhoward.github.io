@@ -931,6 +931,11 @@ html {
   margin-left: auto;
   margin-right: auto; }
 
+.wrap-blog {
+  max-width: 58em;
+  margin-left: auto;
+  margin-right: auto; }
+
 @media screen and (max-width: 750px) {
   .floater {
     margin-left: auto;
