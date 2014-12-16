@@ -913,7 +913,8 @@ html {
   padding: 14px 40px; }
 
 .centered {
-  text-align: center; }
+  text-align: center;
+  display: block; }
 
 .floater {
   margin-left: 50px;
