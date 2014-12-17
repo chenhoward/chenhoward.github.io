@@ -914,7 +914,8 @@ html {
 
 .centered {
   text-align: center;
-  display: block; }
+  display: block;
+  margin: auto; }
 
 .floater {
   margin-left: 50px;
