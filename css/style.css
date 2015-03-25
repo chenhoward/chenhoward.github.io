@@ -374,4 +374,16 @@ nav {
     padding-right: 2em;
     float: right; }
 
+.container {
+  margin: auto;
+  width: 75%; }
+
+p {
+  font-size: 1.2em;
+  padding-right: 40em; }
+
+h1 {
+  color: #67cbc9;
+  font-size: 7em; }
+
 /*# sourceMappingURL=style.css.map */
