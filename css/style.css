@@ -356,17 +356,20 @@ td,
 th {
   padding: 0; }
 
-nav li {
-  color: #FFFFFF;
-  display: inline;
-  height: 40px;
-  font-size: 1em;
-  line-height: 40px; }
-nav ul {
-  background-color: #67cbc9;
-  list-style: none;
-  margin: 0;
-  padding-right: 2em;
-  text-align: right; }
+nav {
+  background-color: #67cbc9; }
+  nav img {
+    height: 50px;
+    width: 60px; }
+  nav li {
+    color: #FFFFFF;
+    display: inline;
+    font-size: 1em;
+    line-height: 50px; }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 2em;
+    float: right; }
 
 /*# sourceMappingURL=style.css.map */
