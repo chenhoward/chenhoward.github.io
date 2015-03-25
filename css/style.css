@@ -356,7 +356,10 @@ td,
 th {
   padding: 0; }
 
-.nav ul {
-  list-style: none; }
+nav ul {
+  background-color: #67cbc9;
+  list-style: none;
+  margin: 0;
+  text-align: right; }
 
 /*# sourceMappingURL=style.css.map */
