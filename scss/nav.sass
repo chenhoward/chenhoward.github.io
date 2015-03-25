@@ -1,17 +1,22 @@
 @import "color"
 
+$height: 50px
+$width: 6/5 * $height
+
 nav
   background-color: $teal
 
   img
-    height: 50px
-    width: 60px
+    height: $height
+    width: $width
 
   li
     color: $white
     display: inline
     font-size: 1.0em
-    line-height: 50px
+    line-height: $height
+    margin-right: .75em
+    margin-left: .75em
 
   ul
     list-style: none
