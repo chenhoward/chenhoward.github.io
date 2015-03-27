@@ -358,6 +358,8 @@ th {
 
 nav {
   background-color: #67cbc9; }
+  nav a {
+    text-decoration: none; }
   nav img {
     height: 50px;
     width: 60px; }
