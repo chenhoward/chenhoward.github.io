@@ -1,7 +1,6 @@
 @import "normalize"
 @import "nav"
 @import "color"
-@import "fa/font-awesome"
 
 .container
   margin: auto
@@ -23,8 +22,12 @@
   h1
     display: block
 
+  h2
+    color: $grey
+
   p
-    font-size: 1.2em
+    color: $light-grey
+    font-size: 1.3em
     width: 60%
     margin-right: 0
 
@@ -34,3 +37,23 @@ h1
 
 ul
   list-style: none
+  padding: 0px
+
+.fa-icons
+
+  li
+    display: block
+    padding-bottom: 1em
+
+    &:before
+      background: $teal
+      border-radius: 100%
+      color: $white
+      display: inline-block
+      height: 2.5em
+      line-height: 2.5em
+      text-align: center
+      width: 2.5em
+
+    p
+      display: inline
