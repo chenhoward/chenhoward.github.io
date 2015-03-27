@@ -376,12 +376,13 @@ nav {
     float: right; }
 
 footer {
+  display: block;
   width: 100%;
-  position: absolute;
   bottom: 0;
   left: 0;
   text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+  height: 80px; }
 
 .fa-icons-footer a {
   text-decoration: none; }
