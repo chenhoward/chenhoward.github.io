@@ -398,6 +398,9 @@ footer {
     text-align: center;
     width: 2.5em; }
 
+body {
+  font-family: "Merriweather Sans", sans-serif !important; }
+
 .container {
   margin: auto;
   width: 75%;
@@ -443,6 +446,7 @@ ul {
     text-align: center;
     width: 2.5em; }
   .fa-icons li p {
-    display: inline; }
+    display: inline;
+    font-family: "Merriweather Sans", sans-serif !important; }
 
 /*# sourceMappingURL=style.css.map */
