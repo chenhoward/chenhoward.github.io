@@ -373,9 +373,33 @@ nav {
     padding-right: 2em;
     float: right; }
 
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  text-decoration: none; }
+
+.fa-icons-footer a {
+  text-decoration: none; }
+.fa-icons-footer li {
+  display: inline;
+  padding-right: 2em; }
+  .fa-icons-footer li i {
+    background: #67cbc9;
+    border-radius: 100%;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    width: 2.5em; }
+
 .container {
   margin: auto;
-  width: 75%; }
+  width: 75%;
+  margin-bottom: 80px; }
   .container .clear {
     clear: both; }
   .container .left {
