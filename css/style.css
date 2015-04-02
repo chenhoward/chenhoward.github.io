@@ -401,6 +401,9 @@ footer {
 
 body {
   font-family: "Merriweather Sans", sans-serif !important; }
+  body a {
+    text-decoration: none;
+    color: #777; }
 
 .container {
   margin: auto;
