@@ -412,7 +412,7 @@ body {
   .container .clear {
     clear: both; }
   .container .left {
-    width: 60%;
+    width: 50%;
     display: inline;
     float: left; }
   .container .right {
