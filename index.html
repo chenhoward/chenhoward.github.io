@@ -1,20 +1,59 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="container">
+  <h1>Howard Chen</h1>
+  <div class="left">
+      <h2>Rails, Javascript, and Android Developer</h2>
+      <p>
+        Hi, my name is Howard and I am a student and a creator.  I often develop
+        Rails applications and have a fondness for cool client-side javascript
+        applications.  Android development is something I do on the side.
+        I'm really into music and I want to write some poetry one day.  These
+        interests push me to try my hand at design because I like art and I want
+        to make art.  Education and social welfare is my biggest areas of
+        interests in terms of the social sector so talk with me about it!
+      </p>
+  </div>
+  <div class="right">
+    <h2>Random skills</h2>
+      <ul class="fa-icons">
+        <li class="fa fa-diamond">&nbsp<p>Ruby on Rails</p></li>
+        <li class="fa fa-android">&nbsp<p>Android</p></li>
+        <li class="fa fa-rocket">&nbsp<p>BackboneJS + ReactJS</p></li>
+        <li class="fa fa-coffee">&nbsp<p>CoffeeScript</p></li>
+        <li class="fa fa-code">&nbsp<p>HTML/CSS</p></li>
+        <li class="fa fa-database">&nbsp<p>PostgreSQL</p></li>
+      </ul>
+  </div>
+  <div class="clear">
+  </div>
+  <h2>Projects</h2>
+  <a href="https://github.com/calblueprint/PHC"><h3>Project Homeless Connect</h3></a>
+    <p>
+      I was a Project Leader for Cal Blueprint where I led a team of four other
+      developers to build an Android application for the non-profit Project
+      Homeless Connect that would replace their current paper system.  This app
+      provides the non-profit with more security with confidential information
+      and frees up volunteers to do more work at their events.
+    </p>
+  <a href="https://github.com/rails-decal/railsdecal.com"><h3>Rails Decal</h3></a>
+    <p>
+      I currently am the instructor for the Rails Decal, a course at UC Berkeley
+      that teaches the Ruby on Rails framework to students.  I also was part of
+      creating the website and currently maintain it.
+    </p>
+  <a href="https://github.com/calblueprint/ff"><h3>Open Food Finder</h3></a>
+    <p>
+      Open Food Finder is an open source Android Application that allows users
+      to post up food donations and claim them.  I mainly worked on creating the
+      assets, layouts, views for User sessions, and integrating the Facebook SDK.
+    </p>
+  <a href="https://github.com/calblueprint/open-music-portal-rails"><h3>Open Music Competition</h3></a>
+    <p>
+      Open Music Competition is an open source Rails Web App that students to
+      sign up and pay for music competitions.  I created the account system,
+      admin capabilities, sessions, and JSON API endpoints.
+    </p>
 </div>
