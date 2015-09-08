@@ -458,4 +458,9 @@ ul {
     display: inline;
     font-family: "Merriweather Sans", sans-serif !important; }
 
+.img-circle {
+  border-radius: 50%;
+  display: block;
+  margin: auto; }
+
 /*# sourceMappingURL=style.css.map */
