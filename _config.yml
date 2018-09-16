@@ -11,3 +11,8 @@ github_username: chenhoward
 markdown: kramdown
 permalink: pretty
 highlighter: rouge
+
+gems:
+  - jekyll-seo-tag
+plugins:
+  - jekyll-seo-tag
