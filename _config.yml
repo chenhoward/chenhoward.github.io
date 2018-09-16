@@ -1,0 +1,13 @@
+# Site settings
+title: "Howard Chen: Just trying to create things"
+email: howardxchen@gmail.com
+description: "Blogging about my developer experience"
+baseurl: ""
+url: "http://chenhoward.com"
+twitter_username: chowybear
+github_username: chenhoward
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: rouge

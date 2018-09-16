@@ -1,0 +1,95 @@
+---
+layout: home
+---
+
+<div class="container">
+  <div>
+    <h1>Howard Chen</h1>
+    <p>Engineering VC @ <a class="underline" href="http://www.signalfire.com">SignalFire</a></p>
+    <p>Former Engineer @ Groupon, Breadcrumb, and
+      <a class="underline" href="https://medium.com/@howardchen/my-internship-at-salesforce-645875eb6b89#.64l3kz1n5">
+        Salesforce
+      </a>
+    </p>
+    <p>Computer Science @ UC Berkeley</p>
+    <p> Former Instructor of the <a class="underline" href="http://railsdecal.com"> Ruby on Rails Decal @ UC Berkeley </a> </p>
+    <p> Former Student Instructor for <a class="underline" href="https://data8.org"> UC Berkeley's Data Science Course </a> </p>
+    <p>
+      <a class="underline" href="/assets/ChenResume.pdf">Resume</a> (updated 2016)
+    </p>
+    <ul class="fa-icons-footer">
+      <a href="https://github.com/chenhoward">
+        <li>
+          <i class="fa fa-github-alt teal"></i>
+        </li>
+      </a>
+      <a href="https://www.linkedin.com/in/howardxchen">
+        <li>
+          <i class="fa fa-linkedin linked-in-blue"></i>
+      </a>
+      <a href="https://twitter.com/chowybear">
+        <li>
+          <i class="fa fa-twitter twitter-blue"></i>
+        </li>
+      </a>
+    </ul>
+  </div>
+  <div class="left card">
+    <a target="_blank" href="https://medium.com/@blueprint/learning-from-doing-39c9aa926b87"><h3>Project Homeless Connect</h3></a>
+    <p>
+      I was a Project Leader for Cal Blueprint where I led a team of four other
+      developers to build an Android application for the nonprofit Project
+      Homeless Connect that would replace their current paper system.  This app
+      provides the nonprofit with more security with confidential information
+      and frees up volunteers to do more work at their events.
+    </p>
+  </div>
+  <div class="right card">
+    <a target="_blank" href="https://railsdecal.com"><h3>Rails Decal</h3></a>
+    <p>
+      I was the instructor for the Rails Decal, a course at UC Berkeley
+      that teaches the Ruby on Rails framework and general web development fundamentals to students.
+      I created assignments, projects, graded, and managed a team of TA's. I also worked on the application,
+      assignment submission, checkin, and grading portal.
+    </p>
+  </div>
+  <div class="left card">
+    <a target="_blank" href="http://calblueprint.org"><h3>Blueprint</h3></a>
+    <p>
+      Blueprint connects college engineering talent with local non-profits. I filled various
+      roles across 3 years as President, a Project Leader, and developer. I worked on various Ruby on Rails
+      and Android projects.
+    </p>
+  </div>
+  <div class="right card">
+    <a target="_blank" href="https://github.com/calblueprint/ff"><h3>Open Food Finder</h3></a>
+    <p>
+      Open Food Finder is an open source Android Application that allows users
+      to post up food donations and claim them.  I mainly worked on creating the
+      assets, layouts, views for User sessions, and integrating the Facebook SDK.
+    </p>
+  </div>
+  <div class="left card">
+    <a target="_blank" href="https://github.com/calblueprint/open-music-portal-rails"><h3>Open Music Competition</h3></a>
+    <p>
+      Open Music Competition is an open source Rails Web App that students to
+      sign up and pay for music competitions.  I created the account system,
+      admin capabilities, sessions, and JSON API endpoints.
+    </p>
+  </div>
+  <div class="right card">
+    <a target="_blank" href="https://github.com/warrenshen/safer-city"><h3>Safer City</h3></a>
+    <p>
+      Won second place in a Hackathon with a web app that would route users from point A to B
+      while avoiding areas that have had reports of sexual assault.
+    </p>
+  </div>
+
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
